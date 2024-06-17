@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-style: border-box;
+}
+
+/* cabeçalho */
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(44, 47, 183);
+    width: 100%;
+    position: fixed;
+    height: 10%;
+}
+
+.top-bar .menu {
+    width: 80%;
+    position: absolute;
+    height: 30px;
+    left: 21%;
+    right: 0px;
+    top: 30%;
+}
+
+.menu {
+    font-size: 2.5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.menu a {
+    text-decoration-line: none;
+    color: white;
+}
+
+.menu a:hover {
+    color: rgb(9, 3, 66);
+}
+
+.top-bar .logo {
+    align-self: flex-start;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 25vh;
+    top: 35%;
+    left: 5%;
+    z-index: 1;
+}
+
+.top-bar .logo img {
+    width: 100%;
+    z-index: 3;
+}
+
+.line-top {
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    height: 15px;
+    background-color: black;
+    top: 90%;
+}
+
+@media (max-width:876px) {
+    .menu {
+        font-size: 2.2vh;
+    }
+
+}
+
+@media (max-width:771px) {
+    .menu {
+        font-size: 2.0vh;
+    }
+
+}
+
+/* corpo */
+
+.body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 90vh;
+    /* background-color: rgb(255, 0, 0); */
+}
+
+.body .titulo {
+    position: absolute;
+    top: 15%;
+    font-size: 4.5vh;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.body .background_1ds {
+    position: absolute;
+    top: 29%;
+    left: 7%;
+    z-index: -1;
+    width: 40%;
+}
+
+.body .background_1ds img {
+    width: 100%;
+}
+
+.body .text1ds {
+    top: 29%;
+    left: 25%;
+    padding: 0 0 0 0%;
+    font-size: 2.2vh;
+    position: relative;
+    color: black;
+}
+
+.body .text1ds p {
+    padding: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 50;
+}
+
+.body .divison_line {
+    top: 90%;
+    position: absolute;
+    background-color: black;
+    width: 70%;
+    height: 1%;
+
+}
+
+@media (max-width:1075px) {
+    .body .background_1ds {
+        position: absolute;
+        top: 29%;
+        left: 25%;
+        z-index: -1;
+        width: 50%;
+    }
+
+    .body .text1ds {
+        top: 90%;
+        left: 5%;
+        padding: 0 0 0 0%;
+        font-size: 1, 3vh;
+        position: relative;
+        color: black;
+    }
+
+    .body .divison_line {
+        top: 140%;
+        position: absolute;
+        background-color: black;
+        width: 70%;
+        height: 1%;
+
+    }
+}
+
+@media (max-width:769px) {
+    .body .background_1ds {
+        position: absolute;
+        top: 29%;
+        left: 23%;
+        z-index: -1;
+        width: 63%;
+    }
+}
+
+.body2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 90vh;
+}
+.titulop {
+    position: absolute;
+    top: 20%;
+    left: 33%;
+
+}
+.titulop h1{
+    font-size: 7vh;
+    font-family: "Jaro", sans-serif;
+    font-weight: 500;
+}
+.fotopossi {
+    position: absolute;
+    top: 32%;
+    right: 13%;
+    z-index: -1;
+    width: 24%;
+    height: 87%;
+}
+
+.fotopossi img {
+    width: 100%;
+}
+.TEXT {
+    position: absolute;
+    top: 44%;
+    left: 13%;
+    z-index: -1;
+    width: 45%;
+    font-size: 4vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.line {
+    top: 140%;
+    position: absolute;
+    background-color: black;
+    width: 80%;
+    height: 1%;
+
+}
+.titulop2 {
+    position: absolute;
+    top: 145%;
+    left: 33%;
+
+}
+.titulop2 h2{
+      font-size: 7vh;
+    font-family: "Jaro", sans-serif;
+    font-weight: 500;
+}
+.foto1{
+ position: absolute;
+ top: 160%;
+ width: 24%;
+ left: 13%;
+ border: 7px solid black;
+ border-radius: 2%;
+}
+.foto1 img {
+    width: 100%;
+}
+
+
+.foto2{
+    position: absolute;
+    top: 160%;
+    width: 27%;
+    right: 27%;
+    border: 7px solid black;
+    border-radius: 2%;
+    z-index: -2;
+}
+.foto2 img {
+    width: 100%;
+}
+.foto3{
+    position: absolute;
+    top: 160%;
+    width: 23%;
+    right: 44%;
+    border: 7px solid black;
+    border-radius: 2%;
+    z-index: -2;
+}
+.foto3 img {
+    width: 100%;
+}
+.foto4{
+    position: absolute;
+    top: 160%;
+    width: 24%;
+    right: 13%;
+    border: 7px solid black;
+    border-radius: 2%;
+    z-index: -3;
+}
+.foto4 img {
+    width: 100%;
+}
+.foto1:hover{
+    z-index: 4;
+    width: 27%;
+}
+.foto2:hover{
+    z-index: 4;
+    width: 30%;
+}
+.foto3:hover{
+    z-index: 4;
+    width: 32%;
+}
+.foto4:hover{
+    z-index: 4;
+    width: 27%;
+}

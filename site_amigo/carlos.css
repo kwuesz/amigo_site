@@ -1,0 +1,313 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-style: border-box;
+}
+ 
+/* cabeçalho */
+ 
+.top-bar {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(43, 46, 226);
+    width: 100%;
+    position: fixed;
+    height: 10%;
+}
+ 
+.top-bar .menu {
+    width: 80%;
+    position: absolute;
+    height: 30px;
+    left: 21%;
+    right: 0px;
+    top: 30%;
+}
+ 
+.menu {
+    font-size: 2.5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+ 
+.menu a {
+    text-decoration-line: none;
+    color: white;
+}
+ 
+.menu a:hover {
+    color: rgb(9, 3, 66);
+}
+ 
+.top-bar .logo {
+    align-self: flex-start;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 25vh;
+    top: 35%;
+    left: 5%;
+    z-index: 1;
+}
+ 
+.top-bar .logo img {
+    width: 100%;
+    z-index: 3;
+}
+ 
+.line-top {
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    height: 15px;
+    background-color: black;
+    top: 90%;
+}
+ 
+@media (max-width:876px) {
+    .menu {
+        font-size: 2.2vh;
+    }
+ 
+}
+ 
+@media (max-width:771px) {
+    .menu {
+        font-size: 2.0vh;
+    }
+ 
+}
+ 
+/* corpo */
+ 
+.body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 90vh;
+    /* background-color: rgb(255, 0, 0); */
+}
+ 
+.body .titulo {
+    position: absolute;
+    top: 15%;
+    font-size: 4.5vh;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+ 
+.body .background_1ds {
+    position: absolute;
+    top: 29%;
+    left: 7%;
+    z-index: -1;
+    width: 40%;
+}
+ 
+.body .background_1ds img {
+    width: 100%;
+}
+ 
+.body .text1ds {
+    top: 29%;
+    left: 25%;
+    padding: 0 0 0 0%;
+    font-size: 2.2vh;
+    position: relative;
+    color: black;
+}
+ 
+.body .text1ds p {
+    padding: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 50;
+}
+.body .divison_line{
+    top: 90%;
+    position: absolute;
+    background-color: black;
+    width: 70%;
+    height: 1%;
+ 
+}
+@media (max-width:1075px) {
+    .body .background_1ds {
+        position: absolute;
+        top: 29%;
+        left: 25%;
+        z-index: -1;
+        width: 50%;
+    }
+    .body .text1ds {
+        top: 90%;
+        left: 5%;
+        padding: 0 0 0 0%;
+        font-size: 1,3vh;
+        position: relative;
+        color: black;
+    }
+    .body .divison_line{
+        top: 140%;
+        position: absolute;
+        background-color: black;
+        width: 70%;
+        height: 1%;
+    }
+}
+@media (max-width:769px) {
+    .body .background_1ds {
+        position: absolute;
+        top: 29%;
+        left: 23%;
+        z-index: -1;
+        width: 63%;
+      }
+}
+ 
+.container{
+    display: flex;
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+ 
+.fundo{
+    width: auto;
+    height: auto;
+}
+ 
+.card1{
+    display: flex;
+    background-color: rgb(181, 181, 182);
+    margin-top: 10%;
+    margin-left: 2%;
+    width: 40%;
+    height: 3%;
+}
+ 
+.card1 .texto1{
+    text-align: justify;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(66, 66, 90);
+    font-weight: bold;
+    padding: 2%;
+    margin-top: 9%;
+}
+ 
+.card2{
+    display: flex;
+    background-color: rgb(181, 181, 182);
+    margin-top: 1%;
+    margin-left: 40%;
+    width: 40%;
+    height: 3%;
+}
+ 
+.card2 .texto2{
+    text-align: justify;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(66, 66, 90);
+    font-weight: bold;
+    padding: 2%;
+    margin-top: 12%;
+}
+ 
+.card3{
+    display: flex;
+    background-color: rgb(181, 181, 182);
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 40%;
+    height: 3%;
+}
+ 
+.card3 .texto3{
+    text-align: justify;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(66, 66, 90);
+    font-weight: bold;
+    padding: 2%;
+    margin-top: 12%;
+}
+ 
+.card4{
+    display: flex;
+    background-color: rgb(181, 181, 182);
+    margin-top: 1%;
+    margin-left: 27%;
+    width: 50%;
+    height: 6%;
+}
+ 
+.card4 .texto4{
+    text-align: justify;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(66, 66, 90);
+    font-weight: bold;
+    padding: 2%;
+    margin-top: 6%;
+}
+ 
+.card5{
+    display: flex;
+    background-color: rgb(181, 181, 182);
+    margin-top: 1%;
+    margin-left: 13%;
+    width: 50%;
+    height: 6%;
+}
+ 
+.card5 .texto5{
+    text-align: justify;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(66, 66, 90);
+    font-weight: bold;
+    padding: 2%;
+    margin-top: 12%;
+}
+ 
+.fundo1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(66, 66, 90);
+    width: 100%;
+    height: 4%;
+    margin-top: 1%;
+}
+ 
+.foto1{
+    margin-top: 2%;
+    display: flex;
+    width: 25%;
+    height: 85%;
+}
+ 
+.video{
+    display: flex;
+    background-color: rgb(181, 181, 182);
+    margin-top: 1%;
+    margin-left: 17%;
+    width: 45%;
+    height: 6%;
+}
+ 
+.desc{
+    text-align: justify;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(66, 66, 90);
+    font-weight: bold;
+    padding: 2%;
+    margin-top: 17%;
+}

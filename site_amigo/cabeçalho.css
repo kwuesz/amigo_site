@@ -1,0 +1,188 @@
+/* cabeçalho */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top-bar {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(43, 46, 226);
+    width: 100%;    
+    position: fixed;
+    height: 10%;    
+}
+
+.top-bar .menu {
+    width: 80%;
+    position: absolute;
+    height: 30px;
+    left: 21%;
+    right: 0px;
+    top: 30%;
+}
+
+.menu {
+    font-size: 2.5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.menu a {
+    text-decoration-line: none;
+    color: white;
+}
+
+.menu a:hover {
+    color: rgb(9, 3, 66);
+}
+
+.top-bar .logo {
+    align-self: flex-start;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 25vh;
+    top: 35%;
+    left: 5%;
+    z-index: 1;
+}
+
+.top-bar .logo img {
+    width: 100%;
+    z-index: 3;
+}
+
+.line-top {
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    height: 15px;
+    background-color: black;
+    top: 90%;
+}
+
+@media (max-width:876px) {
+    .menu {
+        font-size: 2.2vh;
+    }
+
+}
+
+@media (max-width:771px) {
+    .menu {
+        font-size:2.0vh;
+    }
+
+}
+
+.inicio img{
+    width: 45vh;
+    height: 60vh;
+    top: 1vh;
+    position: absolute;
+    left: 10vh;
+}
+.inicio{
+    top: 20vh;
+    padding-top: 11vh;
+    padding-left: 60vh;
+    padding-right: 10vh;
+    font-size: 4.5vh;
+    text-align: left;
+    align-items: end;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.jogo{
+    margin-top: 47vh;
+    padding-top: 15vh;
+    padding-left: 10vh;
+    top: 15vh;
+    padding-right: 55vh;
+    font-size: 4.5vh;
+    text-align: left;
+    align-items: end;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.jogo img{
+    width: 45vh;
+    height: 60vh;
+    top: 5vh;
+    position: absolute;
+    right: 10vh;
+
+}
+.body .divison_line{
+    left: 25vh;
+    position: relative;
+    background-color: black;
+    width: 70%;
+    top: 58vh;
+    height: 1%;
+}
+.body .divison_line2{
+    left: 25vh;
+    position: relative;
+    background-color: black;
+    width: 70%;
+    top: 48vh;
+    height: 1%;
+}
+.body .divison_line3{
+    left: 25vh;
+    position: relative;
+    background-color: black;
+    width: 70%;
+    top: 52.5vh;
+    height: 1%;
+}
+.desenho{
+    margin-top: 40vh;
+    padding-top: 15vh;
+    padding-left: 10vh;
+    top: 15vh;
+    padding-right: 55vh;
+    font-size: 4.5vh;
+    text-align: left;
+    align-items: end;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.desenho img{
+    width: 45vh;
+    height: 60vh;
+    top: 5vh;
+    position: absolute;
+    right: 10vh;
+}
+.body {
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 90vh;
+    /* background-color: rgb(255, 0, 0); */
+}
+.mimir{
+    margin-top: 40vh;
+    padding-top: 11vh;
+    padding-left: 60vh;
+    padding-right: 10vh;
+    top: 15vh;
+    font-size: 4.5vh;
+    text-align: left;
+    align-items: end;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.mimir img{
+    width: 45vh;
+    height: 60vh;
+    top: 5vh;
+    position: absolute;
+    left: 10vh;
+}
